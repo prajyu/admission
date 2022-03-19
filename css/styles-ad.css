@@ -1,0 +1,316 @@
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Roboto-Thin.ttf);
+    font-style: normal;
+    font-weight: 50;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Roboto-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Roboto-Black.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    color: gray;
+}
+
+button{
+    background-color: white;
+    color: white;
+    border: none;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3% 0% 3% 0%;
+
+}
+
+.thin{
+    font-family: Axiforma;
+    font-weight: 100;
+}
+
+.admission{
+    color: white;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 230px;        
+    text-align: center;
+    top: 118px;
+    display: block ruby;
+}
+
+button img{
+    width: 15px;
+}
+
+#ad{
+    color: white;
+    font-size: 19px;
+}
+#he{
+    color: white;
+    font-size: 19px;
+}
+
+.background{
+    width: 100%;
+}
+
+h1{
+    color: #BA0202;
+    font-family: Axiforma;
+}
+h3{
+    color: #BA0202;
+    font-family: Axiforma;
+    font-size: 3.2vw;
+    font-weight: 400;
+}
+
+p{
+    font-family: Axiforma;
+    font-weight: 100;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 2.8vw;
+}
+
+#tap{
+    color: grey;
+}
+
+/* section{
+
+} */
+
+.gec-thrissur{
+    margin: 6% 5% 1% 5%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 3% 5% 3% 5%;
+}
+
+
+
+.inactive{
+    display: none;
+}
+
+.minus{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+hr{
+    width: 100%;
+    color: grey;
+
+}
+#doc{
+    font-weight: 200;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.centre{
+    justify-content: center;
+}
+
+#width{
+    width: 50%;
+    margin: auto;
+}
+
+.social-media{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#lastrank{
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: Axiforma; 
+    font-size: 7px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+iframe{
+    width: 100%;
+}
+
+a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: #BA0202;
+}
+
+label{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 200;
+    color: grey;
+}
+
+input[type=text], select {
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 200;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea{
+    font-family: Axiforma;
+    font-style: normal;
+    color: grey;
+    font-weight: 200;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.btn{
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    background-color:#FAFAFA;
+    padding: 14px 28px;
+    font-size: 11px;
+    cursor: pointer;
+    box-shadow: 3px 5px 6px rgba(149,149,149,0.4);
+    font-family: Axiforma;
+    margin: 10px;
+
+}
+
+.button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hostel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1.7px solid black;
+    margin-bottom: 25px;
+}
+
+.hostel-image{
+    height: auto;
+    width: 100%;
+}
+
+@media screen and ( min-width:1000px){
+
+    h3{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    header{
+        margin: 1% 0 1% 0;
+    }
+
+    .content{
+        margin: 15px 5% 15px 5%;
+    }
+    
+
+}
+

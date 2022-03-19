@@ -1,0 +1,219 @@
+@font-face{
+    font-family: 'LemonMilk';
+    src: url(fonts/LEMONMILK-Regular.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'LemonMilk';
+    src: url(fonts/LEMONMILK-Light.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.header-logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 45%;
+    margin: 0;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-family: LemonMilk;
+    font-weight: 100;
+
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+.hr-tag{
+    padding-top: 0.4%;
+}
+
+.hr-tag hr{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.main-title {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+#sfi-title{
+    color: red;
+    font-size:2.8vw ;
+    font-family: 'Baskervville', serif;
+}
+
+h5{
+    font-family: 'Baskervville', serif;
+    font-size: 1.15vw;
+    padding-bottom: 20px;
+}
+
+.main-title hr{
+    background-color: white;
+    width: 38%;
+    margin: auto;
+}
+
+.sfi-tag {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-left: 23%;
+    padding-right: 23%;
+    font-family: LemonMilk;
+    font-weight: 100;
+    
+}
+
+.arch-image img{
+    width: 100%;
+    height: auto;
+}
+
+.arch-mobile img{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:1000px){
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        justify-content: space-between;
+        padding-top: 2%;
+    }
+    .nav-link{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 5%;
+
+    }
+    .nav-links li{
+        opacity: 0px;
+    }
+
+    .burger{
+        display: block;
+
+    }
+    .hr-tag hr{
+        display: none;
+    }
+
+    .nav-active{
+        display: flex;
+        
+
+    }
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .toggle .line2 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .header-logo img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-title{
+        margin-top: 20%;
+    }
+
+    #sfi-title{
+        font-size: 5vw;
+    }
+
+
+
+    #gec-unit{
+        font-size: 2.3vw;
+        margin: 0;
+    }
+    
+    .sfi-tag{
+        font-size: 10px;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .main-title hr{
+        width: 75%
+    }
+
+    .arch-image img{
+        display: none;
+    }
+
+    .arch-mobile img{
+        display: block;
+        width: 100%;
+    }
+
+    .active{
+        display: none;
+    }
+
+}    
